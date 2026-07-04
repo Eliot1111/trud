@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Nunito:wght@400;600;700;800;900&display=swap");
+
+:root {
+  --milk: #f7f0e4;
+  --cream: #fff8ea;
+  --butter: #f1d7a5;
+  --coffee: #3b2417;
+  --cocoa: #5a3624;
+  --caramel: #b97a45;
+  --soft-brown: #8a6045;
+  --sun: #e4ac2f;
+  --blue-tile: #5f9faf;
+  --rose: #d98c8f;
+  --green: #446a42;
+  --line: rgba(59, 36, 23, 0.16);
+  --surface: rgba(255, 248, 234, 0.74);
+  --surface-strong: rgba(255, 248, 234, 0.92);
+  --shadow-soft: 0 24px 70px rgba(59, 36, 23, 0.14);
+  --shadow-small: 0 12px 26px rgba(59, 36, 23, 0.12);
+  --font-display: "Comfortaa", "Nunito", system-ui, sans-serif;
+  --font-logo: "Nunito", "Comfortaa", system-ui, sans-serif;
+  --font-body: "Nunito", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
