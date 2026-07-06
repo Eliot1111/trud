@@ -11,7 +11,8 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100dvh;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
   font-family: var(--font-body);
   letter-spacing: 0;
   text-rendering: optimizeLegibility;
@@ -40,12 +41,6 @@ address {
 ::selection {
   background: var(--butter);
   color: var(--coffee);
-}
-
-@media (max-width: 760px) {
-  body {
-    overflow: auto;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -26,15 +26,6 @@ export function SectionNav({ sections, activeId, onSelect }) {
           </button>
         ))}
       </nav>
-
-      <a
-        className="site-header__map-link"
-        href="https://yandex.ru/maps/org/5915057857"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Казань
-      </a>
     </header>
   );
 }

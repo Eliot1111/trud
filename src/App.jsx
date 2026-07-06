@@ -50,6 +50,10 @@ export default function App() {
   const activeSection = sectionViews[activeIndex];
   const ActiveComponent = activeSection.Component;
 
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [activeId]);
+
   const goTo = useCallback(
     (id) => {
       const nextIndex = sectionViews.findIndex((section) => section.id === id);
